@@ -1,0 +1,30 @@
+version: "3"
+services:
+ full-stack-frontend:
+   container_name: front-end
+   build: ./full-stack-frontend/.
+   ports:
+     - "8081:8081"
+   depends_on:
+     - full-stack-backend
+
+ full-stack-backend:
+   container_name: back-end
+   build: ./full-stack-backend/.
+   ports:
+     - "8080:8080"
+   network_mode: host
+   environment:
+     NEO4J_AUTH: none
+   depends_on:
+     - neo4j
+   restart: always
+
+
+ neo4j:
+   image: neo4j:latest
+   ports:
+     - "7474:7474"
+     - "7687:7687"
+   volumes:
+     - $HOME/neo4j/data:/data

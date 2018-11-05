@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/full-stack-backend.iml" filepath="$PROJECT_DIR$/full-stack-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fullstack-backend.iml" filepath="$PROJECT_DIR$/fullstack-backend.iml" />
+    </modules>
+  </component>
+</project>

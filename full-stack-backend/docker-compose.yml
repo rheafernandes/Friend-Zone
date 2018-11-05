@@ -1,0 +1,19 @@
+version: "3"
+services:
+ full-stack-backend:
+  build: .
+  ports:
+   - "8080:8080"
+  network_mode: host
+  environment:
+    NEO4J_AUTH: none
+  depends_on:
+   - neo4j
+  restart: always
+ neo4j:
+  image: neo4j:latest
+  ports:
+   - "7474:7474"
+   - "7687:7687"
+  volumes:
+   - $HOME/neo4j/data:/data

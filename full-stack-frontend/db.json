@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "id": "maddy123",
+      "name":"Rhea Fernandes",
+      "age":"22",
+      "image-url":"",
+      "description": "An Avid Reader with a Curious mind",
+      "friends": [
+          { 
+              "id":"shah123",
+              "name":"Shreya",
+              "image-url":""
+          },
+          {
+            "id":"Raksha123",
+              "name":"Raksha",
+              "image-url":""
+          },
+          {
+              "id":"Swetha123",
+              "name":"Swetha",
+              "image-url":""
+          },
+          {
+              "id":"Aish123",
+              "name":"Aishwarya",
+              "image-url":""
+          }
+      ]
+    },
+    {
+      "id": "shah123",
+      "name": "Shreya Shah",
+      "age": "23",
+      "birthdate": "16-07-1995",
+      "image-url": "",
+      "description": "I love unicorns and all things sweet",
+      "friends": [
+        {
+          "id": "maddy123",
+          "name": "Rhea",
+          "image-url": ""
+        },
+        {
+          "id": "Raksha123",
+          "name": "Raksha",
+          "image-url": ""
+        },
+        {
+          "id": "Swetha123",
+          "name": "Swetha",
+          "image-url": ""
+        },
+        {
+          "id": "Aish123",
+          "name": "Aishwarya",
+          "image-url": ""
+        }
+      ]
+    },
+    {
+      "id": "Raksha123",
+      "description": "I'm me",
+      "age": "22",
+      "name": "Rakhshanda Noor"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+com/stackroute/fullstackbackend/FullstackBackendApplicationTests.class
+com/stackroute/fullstackbackend/service/UserServiceImplTest.class
+com/stackroute/fullstackbackend/service/UserServiceTest.class
+com/stackroute/fullstackbackend/controller/UserControllersTest.class

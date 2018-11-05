@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Chewy|Permanent+Marker|Satisfy');
+body{
+  /* overflow: hidden; */
+  /* background: url('./images/profile_bg.jpg'); */
+}
+.container-fluid{
+  padding-left:0;
+}
+/* .bg-transparent{
+    background-image: url('./images/New-York-Flare-Blue-City-Sky-iPhone-6-wallpaper-1.jpg');
+} */
+.section-bg {
+  background-color:whitesmoke;
+  /* background-image: url('./images/New-York-Flare-Blue-City-Sky-iPhone-6-wallpaper-1.jpg'); */
+}
+
+.navbar-toggler,.navbar-toggler-icon{
+  background: #343a40;
+}
+
+.nav-item a{
+  color: black;
+  text-decoration: none;
+}
+
+.search-btn,.search-input{
+  border: 2px solid #F3C3FD;
+}
+
+.search-btn:hover{
+  background: #F3C3FD;
+  border: 1px solid #F3C3FD;
+}
+
+.notification-btn{
+  background: #F3C3FD;
+}
+
+.display-4{
+  font-family: 'Satisfy', cursive;
+  color: rgb(0, 0, 0);
+  font-size: 5rem;
+  letter-spacing: .3rem;
+  font-weight: bold;
+  text-shadow: 4px 4px 2px rgb(255, 255, 255);
+}
+.jumboQ-para{
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  letter-spacing: .3rem;
+  text-shadow: 2px 2px 1px rgb(255, 255, 255);
+}
+.jumbo-para{
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  margin: 0 auto;
+  text-shadow: 2px 2px 1px rgb(255, 255, 255);
+  animation: typing 3.5s steps(40, end)
+}
+
+span{
+  border-color: magenta;
+  animation: blink 1s infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+.our-logo{
+  font-family: 'Satisfy', cursive;
+  font-size:2rem;
+  text-shadow: 2px 2px 1px gray;
+}
+.card-body{
+  padding-left:0;
+  padding-right:0;
+}
+
+.card{
+  position:relative;
+  width:18rem;
+  border-radius:0;
+}
+
+.float-button{
+  border-radius:50%;
+  color: whitesmoke;
+  position:absolute;
+  top:-20px;
+  right:-15px;
+  z-index:1;
+}
+
+.main-grid{
+  margin-top: 1em;
+}
+
+.info-heading{
+  padding: 0.2em;
+  /* border-radius: 0.2em; */
+  font-family: 'Satisfy', cursive;
+  font-size: 1.5em;
+  /* box-shadow:5px 5px 5px gray; */
+}
+
+.jumbotron{
+  height: 100vh;
+  margin-bottom: 0;
+  background: url('./images/tarbo-exxxpiation-art-fon-devushka-anime-gorod-zonty-siluety.jpg');
+  background-size: cover;
+}
+
+.flex-row{
+  flex-flow:row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile-info{
+  height: 90vh;
+  overflow:auto ;
+}
+
+.profile-card{
+  background: whitesmoke;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.profile-card img{
+  height: 40vh;
+  width: 20vw;
+  margin:5vh 1vw;
+  margin-bottom:0;
+}
+
+.profile-card h5{
+  font-family:'Satisfy', cursive;
+  font-size: 1.5em;
+}
+
+.friend-list{
+  height: 90vh;
+  overflow-y: auto;
+}
+
+
+.recommendation-list{
+  height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.friend-card{
+  background-image: url('./images/New-York-Flare-Blue-City-Sky-iPhone-6-wallpaper-1.jpg');
+  padding: 1em;
+  height: 12em;
+  text-align: center;
+  box-shadow:5px 5px 5px gray;
+}
+
+.recommendation-card{
+  padding-top: 1em;
+  background-image: url('./images/New-York-Flare-Blue-City-Sky-iPhone-6-wallpaper-1.jpg');
+  height: 13em;
+  width: 12em;
+  box-shadow:5px 5px 5px gray;
+}
+
+.recommendation-card a{
+  color: #000000;
+  font-family: 'Satisfy', cursive;
+}
+
+
+.recommendation-card img{
+  margin: 0 auto;
+  height: 5em;
+  width: 6em;
+}
+
+.username-btn{
+  padding:0;
+  background: none;
+  border: none;
+  font-family: 'Satisfy', cursive;
+  font-size: 1em;
+  color: #000000;
+}
+
+.bg-image{
+  background: url('./images/friend_bg.jpg') no-repeat; 
+  height: 100vh;
+  background-size: cover;
+  margin: 0;
+}
+
+.login-form,.register-form{
+    width: 40%;
+    margin: 2em auto;
+    padding-top: 2em;
+    padding-bottom:0.2em;
+    background: rgba(255,255,255,0.4);
+    border-radius: 1em;
+}
+.jumbotron-form{
+  width: 80%;
+  margin: 2em auto;
+  padding-top: 2em;
+  padding-bottom:3em;
+  background: rgba(255,255,255,0.4);
+}
+.login-logo,.register-logo{
+  padding: 0.5em;
+  font-family: 'Satisfy', cursive;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 70px; 
+}
+
+.login-head,.register-head{
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-size: 45px;
+}
+
+.login-form form,.register-form form{
+  margin: 2em;
+}
+
+.login-form form .form-control{
+  margin-bottom: 2em;
+}
+
+
+.register-form form .form-control{
+  margin-bottom: 2em;
+}
+
+a{
+  text-decoration: none;
+}
+
+.col-sm-6{
+  padding:0;
+}
