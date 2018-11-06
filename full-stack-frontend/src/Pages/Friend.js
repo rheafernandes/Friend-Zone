@@ -16,7 +16,7 @@ export default class Friend extends Component {
             levelOne: [],
             levelTwo: [],
             userDeleted: false,
-            username:"",
+            username: "",
             friendname: this.props.location.state.friendname
         }
     }
@@ -50,12 +50,19 @@ export default class Friend extends Component {
                 console.log("Error retreiving Info");
             });
     }
-    handleChangeDisp(e) {
+    handleChangeDispR(e) {
         e.preventDefault();
         this.setState({
-            dispChange: !this.state.dispChange
+            dispChange: true
         })
         this.handleSearchUser()
+    }
+
+    handleChangeDispF(e) {
+        e.preventDefault();
+        this.setState({
+            dispChange: false
+        })
     }
     handleChangedNewEntry(e) {
         this.setState({ searchValue: e.target.value });
@@ -119,8 +126,9 @@ export default class Friend extends Component {
                     handleLevelTwo={this.handleLevelTwo.bind(this)}
                     handleChangedNewEntry={this.handleChangedNewEntry.bind(this)}
                     // handleSearchUser={this.handleSearchUser.bind(this)}
-                    handleChangeDisp={this.handleChangeDisp.bind(this)}
-                    // handleDeleteUser={this.handledeleteUser.bind(this)}
+                    handleChangeDispR={this.handleChangeDispR.bind(this)}
+                    handleChangeDispF={this.handleChangeDispF.bind(this)}
+                // handleDeleteUser={this.handledeleteUser.bind(this)}
                 />
                 {
                     this.state.user ?
@@ -129,7 +137,7 @@ export default class Friend extends Component {
                             dispChange={this.state.dispChange}
                             searchedUsers={this.state.searchedUsers}
                             // username={this.state.username}
-                            friendname = {this.state.friendname}
+                            friendname={this.state.friendname}
                             levelOne={this.state.levelOne}
                             levelTwo={this.state.levelTwo}
                             // addFriend={this.addFriend.bind(this)}
