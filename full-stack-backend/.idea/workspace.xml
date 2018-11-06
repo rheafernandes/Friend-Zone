@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83e0a6fd-a0c7-45bb-b9c0-b33c02dc8a77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/full-stack-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/full-stack-backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/fullstackbackend/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/fullstackbackend/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/fullstackbackend/controller/UserControllersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/fullstackbackend/controller/UserControllersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/fullstackbackend/FullstackBackendApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/fullstackbackend/FullstackBackendApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/fullstackbackend/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/fullstackbackend/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/fullstackbackend/exceptions/UserAlreadyExistsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/fullstackbackend/exceptions/UserAlreadyExistsException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/fullstackbackend/exceptions/UserNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/fullstackbackend/exceptions/UserNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/fullstackbackend/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/fullstackbackend/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/fullstackbackend/repository/UserRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/fullstackbackend/repository/UserRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/fullstackbackend/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/fullstackbackend/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/fullstackbackend/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/fullstackbackend/service/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/full-stack-backend-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/full-stack-backend-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/full-stack-backend-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/full-stack-backend-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.stackroute.fullstackbackend.FullstackBackendApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.stackroute.fullstackbackend.FullstackBackendApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.stackroute.fullstackbackend.controller.UserControllersTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.stackroute.fullstackbackend.controller.UserControllersTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.stackroute.fullstackbackend.service.UserServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.stackroute.fullstackbackend.service.UserServiceImplTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.stackroute.fullstackbackend.service.UserServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.stackroute.fullstackbackend.service.UserServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.stackroute.fullstackbackend.FullstackBackendApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.stackroute.fullstackbackend.FullstackBackendApplicationTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.stackroute.fullstackbackend.controller.UserControllersTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.stackroute.fullstackbackend.controller.UserControllersTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.stackroute.fullstackbackend.service.UserServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.stackroute.fullstackbackend.service.UserServiceImplTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.stackroute.fullstackbackend.service.UserServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.stackroute.fullstackbackend.service.UserServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../full-stack-frontend/src/Components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../full-stack-frontend/src/Components/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../full-stack-frontend/src/Pages/RegisterPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../full-stack-frontend/src/Pages/RegisterPage.js" afterDir="false" />
-    </list>
+    <list default="true" id="83e0a6fd-a0c7-45bb-b9c0-b33c02dc8a77" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -401,7 +375,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541487963928" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541488499016" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
