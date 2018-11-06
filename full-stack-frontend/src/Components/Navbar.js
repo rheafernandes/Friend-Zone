@@ -5,9 +5,9 @@ import { FaSearch } from 'react-icons/fa';
 import { FaTrash } from 'react-icons/fa';
 import { FaSignOutAlt } from 'react-icons/fa';
 import { FaUserFriends } from 'react-icons/fa';
+import { FaUsers } from 'react-icons/fa';
 import { FaBell } from 'react-icons/fa';
 import { Redirect } from 'react-router-dom';
-
 export default class Navbar extends Component {
     constructor(props) {
         super(props);
@@ -26,15 +26,17 @@ export default class Navbar extends Component {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <form className="form-inline my-2 my-lg-0 ml-auto">
                         <input className="form-control search-input mr-sm-2" type="search" placeholder="Search" aria-label="Search" onChange={this.props.handleChangedNewEntry.bind(this)} required={true} />
-
                         <div data-toggle="tooltip" title="Toggle Search/Friends" data-placement="bottom">
-                            <button className="btn btn-outline-dark search-btn my-2 my-sm-0" type="submit" onClick={this.props.handleChangeDisp.bind(this)}>
+                            <button className="btn btn-outline-dark search-btn my-2 my-sm-0" type="submit" onClick={this.props.handleChangeDispR.bind(this)}>
                                 <FaSearch />
                             </button>
+                            <button className="btn btn-outline-dark search-btn ml-2" type="submit" onClick={this.props.handleChangeDispF.bind(this)}>
+                                <FaUsers />
+                            </button>
+                            
                         </div>
                     </form>
                     <ul className="navbar-nav ml-auto  ">
@@ -72,9 +74,6 @@ export default class Navbar extends Component {
                     </ul>
                 </div>
                 {(this.state.Signout) ? <Redirect to="/" /> : null}
-
-
-
             </nav>
         );
     }
