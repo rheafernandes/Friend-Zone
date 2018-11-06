@@ -112,7 +112,6 @@ export default class User extends Component {
     this.setState({
       dispChange: false
     })
-    this.handleSearchUser()
   }
 
   handleChangedNewEntry(e) {
