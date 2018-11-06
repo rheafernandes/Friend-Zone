@@ -15,7 +15,7 @@ export default class LoginPage extends React.Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:8080/api/v1/getuser')
+        axios.get('http://172.23.238.178:8080/api/v1/getuser')
             .then(res =>
                 this.setState({
                     users: res.data

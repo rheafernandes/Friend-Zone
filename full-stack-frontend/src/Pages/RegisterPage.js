@@ -42,7 +42,7 @@ export default class RegisterPage extends React.Component{
             imageUrl:`https://source.unsplash.com/collection/895539/320x320/?sig=${randomImageIndex}`
         };
 
-        axios.post('http://localhost:8080/api/v1/adduser', newUser)
+        axios.post('http://172.23.238.178:8080/api/v1/adduser', newUser)
             .then(res => {
                 console.log("User is created")
                 this.setState(() => ({ userCreated: true }));
