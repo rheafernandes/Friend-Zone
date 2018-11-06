@@ -98,13 +98,23 @@ export default class User extends Component {
 
   }
 
-  handleChangeDisp(e) {
+  
+  handleChangeDispR(e) {
     e.preventDefault();
     this.setState({
-      dispChange: !this.state.dispChange
+      dispChange: true
     })
     this.handleSearchUser()
   }
+  
+  handleChangeDispF(e) {
+    e.preventDefault();
+    this.setState({
+      dispChange: false
+    })
+    this.handleSearchUser()
+  }
+
   handleChangedNewEntry(e) {
     this.setState({ searchValue: e.target.value });
   }
@@ -170,7 +180,8 @@ export default class User extends Component {
           handleLevelTwo={this.handleLevelTwo.bind(this)}
           handleChangedNewEntry={this.handleChangedNewEntry.bind(this)}
           // handleSearchUser={this.handleSearchUser.bind(this)}
-          handleChangeDisp={this.handleChangeDisp.bind(this)}
+          handleChangeDispR={this.handleChangeDispR.bind(this)}
+          handleChangeDispF={this.handleChangeDispF.bind(this)}
           handleDeleteUser={this.handledeleteUser.bind(this)}
         />
         {
