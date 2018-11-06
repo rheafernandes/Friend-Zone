@@ -8,7 +8,8 @@ export default class FriendCards extends Component {
    constructor(props){
        super(props);
        this.state = {
-           showFriend:false
+           showFriend:false,
+           addedFriend: false
        }
    }
 
@@ -23,6 +24,9 @@ export default class FriendCards extends Component {
 
    handleAddUser(e){
        this.props.addFriend(this.props.friendId);
+       this.setState({
+           addedFriend:true
+       })
    }
 
    handleRemoveFriend(e){
@@ -39,7 +43,7 @@ https://articles-images.sftcdn.net/wp-content/uploads/sites/3/2016/01/wallpaper-
                    <h5 className="card-title">
 
                        <button className="username-btn" onClick={this.showFriendData.bind(this)} >{this.props.friendName}</button>
-                       {this.props.display==="block"?<button href="#" className="btn btn-outline-danger" onClick={this.handleAddUser.bind(this)}><FaUserPlus/></button>:null}
+                       {(this.props.display==="block" || this.state.addedFriend===false)?<button href="#" className="btn btn-outline-danger" onClick={this.handleAddUser.bind(this)}><FaUserPlus/></button>:null}
 
                    </h5>
                    {this.props.isFriendPage?null:<a href="#" onClick={this.handleRemoveFriend.bind(this)} className="btn float-button btn-outline-danger text-dark"><strong>x</strong></a>}

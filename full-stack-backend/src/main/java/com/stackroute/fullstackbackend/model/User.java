@@ -123,21 +123,5 @@ public class User {
         return Objects.hash(id, username, name, age, birthdate, imageUrl, description, friends);
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", username='" + username + '\'' +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                ", birthdate='" + birthdate + '\'' +
-                ", imageUrl='" + imageUrl + '\'' +
-                ", description='" + description + '\'' +
-                ", friends=" + friends +
-                '}';
-    }
 }
-
-
-
 

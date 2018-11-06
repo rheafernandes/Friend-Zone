@@ -1,4 +1,5 @@
 package com.stackroute.fullstackbackend.repository;
+
 import com.stackroute.fullstackbackend.model.User;
 import org.junit.After;
 import org.junit.Assert;
@@ -20,6 +21,7 @@ import static org.junit.Assert.*;
 @RunWith(SpringRunner.class)
 @DataNeo4jTest
 public class UserRepoTest {
+
     @Autowired
     UserRepo userRepo;
     User user,user1,user2;
