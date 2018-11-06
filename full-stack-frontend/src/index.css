@@ -38,11 +38,11 @@ body{
 
 .display-4{
   font-family: 'Satisfy', cursive;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 5rem;
   letter-spacing: .3rem;
   font-weight: bold;
-  text-shadow: 4px 4px 2px rgb(255, 255, 255);
+  text-shadow: 4px 4px 2px rgb(0, 0, 0);
 }
 .jumboQ-para{
   font-family: 'Permanent Marker', cursive;
@@ -55,17 +55,18 @@ body{
   overflow: hidden;
   white-space: nowrap;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.3rem;
   letter-spacing: .1rem;
   margin: 0 auto;
-  text-shadow: 2px 2px 1px rgb(255, 255, 255);
+  text-shadow: 2px 2px 1px rgb(0, 0, 0);
   animation: typing 3.5s steps(40, end)
 }
 
-span{
-  border-color: magenta;
+.blink{
+  color:magenta;
+  font-weight: bolder;
   animation: blink 1s infinite;
 }
 @keyframes typing {
