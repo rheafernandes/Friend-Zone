@@ -68,7 +68,7 @@ export class Jumbotron extends Component {
             <div className="jumbotron-form">
               <h1 className="display-4 text-center"> 
               <span
-                class="txt-rotate"
+                className="txt-rotate"
                 data-period="2000"
                 data-rotate='[ "FRIEND-ZONE", "FIND YOUR TRIBE", "LOVE THEM HARD"]'></span>
                 </h1>
