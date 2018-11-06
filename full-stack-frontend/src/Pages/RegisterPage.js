@@ -36,9 +36,9 @@ export default class RegisterPage extends React.Component{
         console.log("Entering Add User");
         const newUser = {
             username: this.state.id,
+            name:this.state.name,
             description:this.state.description,
             age:this.state.age,
-            name:this.state.name,
             imageUrl:`https://source.unsplash.com/collection/895539/320x320/?sig=${randomImageIndex}`
         };
 
