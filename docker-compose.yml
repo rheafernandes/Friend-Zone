@@ -1,4 +1,4 @@
-version: "3"
+version: "2"
 services:
  full-stack-frontend:
    container_name: front-end
