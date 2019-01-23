@@ -74,7 +74,7 @@ export class Jumbotron extends Component {
                 </h1>
               <p className="lead text-center jumboQ-para">"Connect with people all over the world"</p>
               <hr className="my-4" />
-              <p className="text-center jumbo-para">You're ready to go in 2 Simple steps. Enjoy this virtual world we created<span className="blink">|</span></p>
+              <p className="text-center jumbo-para">You are ready to go in 2 Simple steps. Enjoy this virtual world we created<span className="blink">|</span></p>
               <div className="text-center">
                 <br />
                 <br />
